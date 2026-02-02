@@ -2,16 +2,16 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family:sans-serif;
             align-items: center;
 }
 body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #012408;
 }
 header {
-            background-color: #333;
+            background-color: #0e5f1d;
             color: #fff;
             padding: 1rem;
             text-align: center;
@@ -20,7 +20,7 @@ h2{
     padding-bottom: 3%;
 }
 nav {
-            background-color: #444;
+            background-color: #1c5c28;
             padding: 1rem;
 }
 nav a {
@@ -43,7 +43,7 @@ section {
             padding-top: 20%;
 }
 footer {
-            background-color: #333;
+            background-color: #44714c;
             color: #fff;
             text-align: center;
             padding: 1rem;
