@@ -19,6 +19,9 @@ header {
 h2{
     padding-bottom: 3%;
 }
+h3{
+    text-align: center;
+}
 nav {
             background-color: #1c5c28;
             padding: 1rem;
