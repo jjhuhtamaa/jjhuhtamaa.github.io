@@ -22,6 +22,9 @@ h2{
 h3{
     text-align: center;
 }
+p{
+    padding-bottom: 5%;
+}
 nav {
             background-color: #1c5c28;
             padding: 1rem;
