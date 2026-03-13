@@ -23,15 +23,20 @@ h2{
     padding-bottom: 3%;
 }
 
-h3{
-    text-align: center;
+h3 {
+    padding-bottom: 2%;
 }
 
 p{
     padding-bottom: 20px;
 }
 
+a {
+    text-decoration: underline;
+}
+
 nav ul {
+    text-align: center;
     list-style-type: none;
     background-color: #0e5f1d;
     padding: 1rem;
