@@ -78,6 +78,7 @@ main {
 
 img {
     padding-top: 5%;
+    padding-right: 5%;
     grid-area: aside;
     max-width: 400px;
     height: auto;
@@ -90,4 +91,23 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "aside"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        grid-area: aside;
+        max-width: 100%;
+        margin: 2%;
+        display: block;
+    }
 }
