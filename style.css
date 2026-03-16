@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    align-items: center;
 }
 
 body {
@@ -39,20 +38,17 @@ p{
     padding-bottom: 20px;
 }
 
-a {
-    text-decoration: underline;
-}
-
 #menu {
     grid-area: nav;
+
 }
 
 nav ul {
     text-align: center;
     list-style-type: none;
     background-color: #0e5f1d;
-    padding: 1rem;
     text-align: center;
+    padding: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -80,14 +76,10 @@ main {
     margin: 0 auto;
 }
 
-
-section {
-    margin: 2rem 0;
-}
-
-.photo img {
+img {
+    padding-top: 5%;
     grid-area: aside;
-    max-width: 600px;
+    max-width: 400px;
     height: auto;
 }
 
