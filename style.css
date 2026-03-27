@@ -114,3 +114,23 @@ footer {
         max-width: 100%;
     }
 }
+
+@media (max-width: 400px) {
+        body {
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "aside"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+
+    aside img {
+        max-width: 100%;
+    }
+    
+    nav li a:hover {
+        font-weight: normal;
+    }
+}
