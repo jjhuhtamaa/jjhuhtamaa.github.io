@@ -129,8 +129,10 @@ footer {
     aside img {
         max-width: 100%;
     }
-    
-    nav li a:hover {
+
+
+    nav li a:hover, nav li a:active, nav li a:focus {
         font-weight: normal;
     }
+
 }
