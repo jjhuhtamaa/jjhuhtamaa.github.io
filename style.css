@@ -27,7 +27,7 @@ header {
     text-align: center;
 }
 
-h2{
+h2 {
     padding-bottom: 3%;
 }
 
@@ -35,7 +35,7 @@ h3 {
     padding-bottom: 2%;
 }
 
-p{
+p {
     padding-bottom: 20px;
 }
 
@@ -50,6 +50,7 @@ nav ul {
     background-color: #0e5f1d;
     text-align: center;
     padding: 1rem;
+    padding-left: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
